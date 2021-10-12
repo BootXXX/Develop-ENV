@@ -1,0 +1,13 @@
+nombres = input("Ingrese sus nombres: ")
+apellidos = input("Ingrese sus apellidos: ")
+edad = int(input("Edad: "))
+estatura = float(input("Estatura (metros): "))
+peso = float(input("Peso (kilogramos): "))
+colorOjos = input("Color de ojos: ")
+colorCabello= input("Color de cabello: ")
+
+print("*"*10)
+print("Bienvenid@ %s %s" % (nombres,apellidos))
+print("Tienes %d años"%(edad))
+print("Mides %.2f metros y pesas %.2f kg"%(estatura,peso))
+print("Y el color de tus ojos es %s y el color de tu cabello es %s \n" % (colorOjos,colorCabello))
